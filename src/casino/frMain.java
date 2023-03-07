@@ -96,7 +96,7 @@ public class frMain extends javax.swing.JFrame {
         initComponents();
         miCasino.start();
     }
-
+//Aqui comienza los que es el repositorio
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
