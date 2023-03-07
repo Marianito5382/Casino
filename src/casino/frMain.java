@@ -96,7 +96,7 @@ public class frMain extends javax.swing.JFrame {
         initComponents();
         miCasino.start();
     }
-//Aqui comienza los que es el repositorio
+//Aqui comienza los que es el programa
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -196,7 +196,7 @@ public class frMain extends javax.swing.JFrame {
         //miCasino.start();
         miCasino.setIs_runing(true);
           Run.setEnabled(false);
-        Detener.setEnabled(true);
+        Detener.setEnabled(true);//Mantenemos lo que es bloqueado hasta que el juego inicie
     }//GEN-LAST:event_RunActionPerformed
 
     private void DetenerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DetenerActionPerformed
