@@ -60,7 +60,7 @@ public class frMain extends javax.swing.JFrame {
            
         @Override
         public void run(){
-            while(true){
+            while(true){//ciclo para evitar los cambios del sistema
             while(this.is_runing){
             this.num1 = (int)(Math.random() * 9 + 1);
             this.num2 = (int)(Math.random() * 9 + 1);
