@@ -241,7 +241,7 @@ public class frMain extends javax.swing.JFrame {
             }
         });
     }
-
+//MARCO VIVO
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Detener;
     private javax.swing.JButton Run;
