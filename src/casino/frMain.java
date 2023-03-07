@@ -11,6 +11,7 @@ import java.util.logging.Level;
  *
  * @author luisg
  */
+//AGregamos otro colaborador e cual sera marco Javier
 public class frMain extends javax.swing.JFrame {
     
     Casino miCasino = new Casino();
@@ -198,7 +199,7 @@ public class frMain extends javax.swing.JFrame {
           Run.setEnabled(false);
         Detener.setEnabled(true);//Mantenemos lo que es bloqueado hasta que el juego inicie
     }//GEN-LAST:event_RunActionPerformed
-
+//Detiene el programa
     private void DetenerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DetenerActionPerformed
         // TODO add your handling code here:
         miCasino.setIs_runing(false);
